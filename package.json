@@ -1,9 +1,22 @@
 {
-  "name": "src",
-  "fullName": "src",
-  "id": "jid1-A0yiutRQJe22HQ",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 2.0",
-  "version": "0.1"
+	"name": "pushpin_pinboard",
+	"fullName": "Pushpin",
+	"id": "jid1-A0yiutRQJe22HQ",
+	"description": "Pushpin provies one-click bookmarking for Pinboard. Pushpin uses the Pinboard API and require an authentication token to be set in the add-on's preferences.",
+	"author": "Matt Boyer",
+	"license": "BSD",
+	"version": "0.1",
+	"icon": "data/pushpin.png",
+	"icon64": "data/pushpin_64.png",
+
+	"preferences": [{
+		"name": "pinboard_username",
+		"title": "Pinboard username",
+		"type": "string"
+	}, {
+		"name": "pinboard_API_key",
+		"title": "Pinboard API key",
+		"type": "string"
+	}]
+
 }
