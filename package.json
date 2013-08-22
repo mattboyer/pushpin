@@ -4,6 +4,7 @@
 	"id": "jid1-A0yiutRQJe22HQ",
 	"description": "Pushpin provies one-click bookmarking for Pinboard. Pushpin uses the Pinboard API and require an authentication token to be set in the add-on's preferences.",
 	"author": "Matt Boyer",
+	"homepage": "https://github.com/mattboyer/pushpin",
 	"license": "BSD",
 	"version": "0.1",
 	"icon": "data/pushpin.png",
