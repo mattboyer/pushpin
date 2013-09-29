@@ -4,9 +4,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <title>Authentication panel</title>
+<link rel="stylesheet" type="text/css" href="panel.css"/>
 </head>
 <body>
-<h1>No Pinboard API token found</h1>
+<h1 class="panel_title">No Pinboard API token found</h1>
 <p>Pushpin needs two things in order to add bookmarks to your Pinboard account:</p>
 <ul>
 	<li>Your Pinboard user name</li>
@@ -16,10 +17,13 @@
 </p>
 <form action="">
 <div>
-	<input type="text" name="username"/>
-	<input type="password" name="password"/>
+	<span>Username: <input type="text" name="username"/></span>
+	<span>Password: <input type="password" name="password"/></span>
 	<input type="button" value="Get my API token"/>
 </div>
 </form>
+<p>
+Please note: Pushpin will send your password over an encrypted connection. <em>Only</em> your username and API token will be stored.
+</p>
 </body>
 </html>

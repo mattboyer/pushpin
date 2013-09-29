@@ -1,0 +1,10 @@
+body {
+	background: white;
+	color: black;
+	font-family: helvetica, sans-serif;
+}
+
+h1.panel_title {
+	color: red;
+	text-align: center;
+}
