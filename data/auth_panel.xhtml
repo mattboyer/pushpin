@@ -15,11 +15,17 @@
 </ul>
 <p>You can register these through the preferences in Firefox's <a href="about:addons">add-on page</a> or request your API token from Pinboard <em>right now</em>.
 </p>
-<form action="">
+<form id="token_request">
 <div>
-	<span>Username: <input type="text" name="username"/></span>
-	<span>Password: <input type="password" name="password"/></span>
-	<input type="button" value="Get my API token"/>
+	<span>
+		<label for="username">Username:</label>
+		<input type="text" required="required" name="username" id="username"/>
+	</span>
+	<span>
+		<label for="password">Password:</label>
+		<input type="password" required="required" name="password" id="password"/>
+	</span>
+	<input type="submit" value="Get my API token"/>
 </div>
 </form>
 <p>
